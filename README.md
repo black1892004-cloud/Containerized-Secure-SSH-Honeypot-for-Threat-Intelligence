@@ -94,8 +94,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 This project is licensed under the MIT License.
 
 ---
-
-## 👤 Contact
-**Abdallah Mustafa**
-[Your LinkedIn Profile] | [Your Email]
 Project developed as a Graduation Thesis in Cybersecurity.
