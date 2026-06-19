@@ -32,8 +32,8 @@ The diagram above illustrates the high-level architecture of the system:
 ### Installation and Setup
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/Deception-Engineering-Cowrie-Honeypot.git
-    cd Deception-Engineering-Cowrie-Honeypot
+    git clone https://github.com/black1892004-cloud/Containerized-Secure-SSH-Honeypot-for-Threat-Intelligence.git
+    cd Containerized-Secure-SSH-Honeypot-for-Threat-Intelligence
     ```
 2.  **Build and run the Docker containers:**
     ```bash
