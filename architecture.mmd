@@ -1,9 +1,0 @@
-graph LR
-    A[Attacker] -- "SSH (Port 22/2222)" --> B(Docker Host)
-    subgraph "Containerized Environment"
-        B -- "Port Forwarding" --> C[Cowrie Honeypot Container]
-        C -- "Interaction" --> D{Filesystem Engineering}
-        D -- "Decoy Files" --> E[Honeyfiles /etc/passwd, .env]
-    end
-    C -- "JSON Logs" --> F[External Storage / Analyst]
-    C -- "Malware Samples" --> G[Malware Repository]
