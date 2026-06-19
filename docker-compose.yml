@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  cowrie:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cowrie-honeypot
+    ports:
+      - "2222:2222"
+      - "2223:2223"
+    volumes:
+      - ./cowrie_data:/opt/cowrie/cowrie_data
+    environment:
+      # Optional: Set timezone for logs
+      - TZ=Asia/Amman
+    restart: unless-stopped
+    # Command to run Cowrie, overriding Dockerfile CMD if needed
+    command: /opt/cowrie/bin/cowrie start --no-detach
