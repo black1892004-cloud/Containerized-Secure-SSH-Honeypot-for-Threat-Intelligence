@@ -108,4 +108,24 @@ All captured interactions are visualized through custom Kibana dashboards, allow
 *   **Stateless Operation**: Container restarts revert any unauthorized changes made by attackers.
 
 ---
+
+## 📈 Future Enhancements & Roadmap
+
+### 🤖 AI-Driven Threat Analysis
+*   **Anomaly Detection:** Integrating Machine Learning models to automatically distinguish between automated bot scripts and human-driven targeted attacks.
+*   **Automated Threat Scoring:** Implementing an AI engine to rank attackers based on their sophistication and the risk they pose to real systems.
+
+### 🕸️ Honey-Network Expansion
+*   **Multi-Protocol Support:** Expanding the honeypot to support additional protocols such as RDP, Telnet, and HTTP to capture a wider range of attack vectors.
+*   **Distributed Sensor Network:** Deploying multiple honeypot nodes across different geographic regions to build a global threat map.
+
+### 🛡️ Active Defense & Response
+*   **Dynamic Deception:** Implementing a system that changes the virtual environment in real-time based on the attacker's actions to keep them engaged longer.
+*   **Automated Firewall Integration:** Automatically blacklisting high-risk IPs in real production firewalls based on intelligence gathered by the honeypot.
+
+### 📊 Advanced SOC Integration
+*   **SIEM Connector:** Developing native connectors for major SIEM platforms like Splunk and IBM QRadar for seamless enterprise integration.
+*   **Incident Response Playbooks:** Creating automated playbooks that trigger specific investigation workflows when high-severity events are detected.
+
+---
 Project developed as a Graduation Thesis in Cybersecurity.
