@@ -128,4 +128,28 @@ All captured interactions are visualized through custom Kibana dashboards, allow
 *   **Incident Response Playbooks:** Creating automated playbooks that trigger specific investigation workflows when high-severity events are detected.
 
 ---
+## 🧪 Technologies Used
+
+| Technology | Purpose |
+| :--- | :--- |
+| **Cowrie** | SSH/Telnet Honeypot |
+| **Docker** | Containerization |
+| **Python** | Automation & Customization |
+| **Elasticsearch** | Log Storage |
+| **Logstash** | Log Processing |
+| **Kibana** | Visualization |
+| **Filebeat** | Log Shipping |
+| **Linux** | Deployment Environment |
+
+
+### 3. قسم التواصل (Contact)
+ليتمكن أصحاب العمل من الوصول إليك بسهولة:
+```markdown
+## 📧 Contact
+
+**Abdallah Issam Said Mustafa**
+- **Email:** [abdallah0alfahmawi@gmail.com]
+- **LinkedIn:** [https://www.linkedin.com/in/abdallah-mustafa-f18/)
+---
+## 📜 License
 Project developed as a Graduation Thesis in Cybersecurity.
