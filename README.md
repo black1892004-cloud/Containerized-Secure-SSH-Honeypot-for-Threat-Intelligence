@@ -88,10 +88,4 @@ All captured interactions are visualized through custom Kibana dashboards, allow
 *   **Stateless Operation**: Container restarts revert any unauthorized changes made by attackers.
 
 ---
-
-## 🤝 Contribution & License
-Contributions are welcome! Please feel free to submit a Pull Request.
-This project is licensed under the MIT License.
-
----
 Project developed as a Graduation Thesis in Cybersecurity.
