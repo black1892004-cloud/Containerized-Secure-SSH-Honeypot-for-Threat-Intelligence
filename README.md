@@ -127,12 +127,11 @@ All captured interactions are visualized through custom Kibana dashboards, allow
 *   **SIEM Connector:** Developing native connectors for major SIEM platforms like Splunk and IBM QRadar for seamless enterprise integration.
 *   **Incident Response Playbooks:** Creating automated playbooks that trigger specific investigation workflows when high-severity events are detected.
 ---
-```markdown
 ## 📧 Contact
 
 **Abdallah Issam Said Mustafa**
 - **Email:** [abdallah0alfahmawi@gmail.com]
 - **LinkedIn:** [https://www.linkedin.com/in/abdallah-mustafa-f18/)
----
+```markdown
 ## 📜 License
 Project developed as a Graduation Thesis in Cybersecurity.
