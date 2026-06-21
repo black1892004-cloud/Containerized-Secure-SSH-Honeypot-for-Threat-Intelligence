@@ -12,11 +12,31 @@ A high-fidelity SSH Honeypot (Cowrie) system engineered with a focus on **Decept
 
 This project implements a sophisticated decoy system designed to mimic a production Linux server. By meticulously crafting virtual filesystems and user personas, we maximize attacker "dwell time," allowing for the collection of deep insights into their methodologies without risking actual production assets.
 
-### Key Highlights:
-*   **High-Fidelity Deception**: Custom-engineered filesystem (`fs.pickle`) and realistic user environments.
-*   **Robust Isolation**: Full containerization using Docker to prevent any potential host compromise.
-*   **Scalable Architecture**: Easily deployable as a single node or a distributed Honeynet.
-*   **Real-time Analytics**: Integrated pipeline for log aggregation and visualization.
+## 🚀 Core Capabilities
+
+### 🛡️ Advanced Deception Engineering
+*   **Engineered Virtual Filesystem:** Custom-built Linux directory structure designed to mimic a high-value production server.
+*   **Persona Customization:** Simulated user profiles and home environments to increase attacker dwell time and interaction.
+*   **Decoy Assets:** Strategic placement of "Honeyfiles" and sensitive-looking credentials to lure deeper exploitation attempts.
+*   **Immersive Shell Environment:** Authentic server banners and interactive shell responses for maximum high-interaction realism.
+
+### 🐳 Hardened Containerized Infrastructure
+*   **Docker-Native Deployment:** Seamless, multi-container orchestration for rapid scaling and complete environment isolation.
+*   **Privilege Segregation:** Secure non-root execution within containers to prevent any potential host-system compromise.
+*   **Ephemeral Architecture:** Lightweight and portable design, ensuring consistent and reproducible environments.
+*   **Attack Surface Reduction:** Minimized container footprint to maintain a secure and stealthy observation post.
+
+### 🔍 Comprehensive Threat Intelligence Pipeline
+*   **Behavioral Monitoring:** Full session recording and real-time command logging for advanced TTP (Tactics, Techniques, and Procedures) analysis.
+*   **Credential Harvesting:** Automated collection and categorization of brute-forced usernames and passwords.
+*   **Payload Analysis:** Real-time monitoring and capturing of malicious file downloads and execution attempts.
+*   **Geolocation & Attribution:** Advanced IP tracking and geographic mapping of global threat actors.
+
+### 📊 Operational Observability (ELK Integration)
+*   **Centralized Log Aggregation:** Scalable storage of all security events and interaction data using Elasticsearch.
+*   **Automated Log Parsing:** Dynamic log processing via Logstash pipelines to transform raw data into structured intelligence.
+*   **Interactive Visual Analytics:** Custom Kibana dashboards designed for real-time threat visualization and executive reporting.
+*   **Actionable Insights:** Data-driven intelligence to identify trends and strengthen overall security posture.
 
 ---
 
